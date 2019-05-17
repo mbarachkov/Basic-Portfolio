@@ -3,17 +3,22 @@ body {
     width: 960px;
 
 }
+#container {
+    margin-top: 20px;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+}
 #header {
-    padding: 20px;
-    background-color: yellow;
-    position: top;
+    float: left;
+    width: 960px;
     
 
 }
 h1 {
     background-color: rgb(102, 168, 131);
     width: 20%;
-    padding: 20px;
+    
 }
 #background {
 
@@ -21,4 +26,5 @@ h1 {
 footer {
     padding: 5px;
     text-align: center;
+    width: 960px;
 }
