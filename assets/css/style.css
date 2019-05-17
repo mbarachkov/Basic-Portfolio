@@ -5,32 +5,39 @@ body {
 }
 #container {
     margin-top: 20px;
-    border-bottom: solid;
     border-left: solid;
     border-right: solid;
+    border-bottom:solid;
     width: 950px;
 }
 #header {
-    width: 960px;
+
+    
     
 
 }
 h1 {
-    background-color: rgb(102, 168, 131);
+    background-color: rgb(27, 216, 191);
     width: 20%;
     float: left;
+    margin-left: 150px;
+    text-align: center;
+    height: 20px;
     
 }
 #links {
     float: right;
+    margin-right: 120px
 }
 #background {
-    width: auto;
-    margin-bottom:5px;
+    position: relative;
+    top: -15px;
 }
-footer {
+p {
     text-align: center;
-    width: 950px;
-    border-top: solid;
-    background-color: darkgrey;
+    width: 930px;
+    padding: 10px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    /* border-bottom: solid; */
 }
