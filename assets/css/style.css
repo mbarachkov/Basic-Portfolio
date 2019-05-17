@@ -8,9 +8,9 @@ body {
     border-bottom: solid;
     border-left: solid;
     border-right: solid;
+    width: 950px;
 }
 #header {
-    float: left;
     width: 960px;
     
 
@@ -21,10 +21,12 @@ h1 {
     
 }
 #background {
-
+    width: auto;
+    margin-bottom:5px;
 }
 footer {
-    padding: 5px;
     text-align: center;
-    width: 960px;
+    width: 950px;
+    border-top: solid;
+    background-color: darkgrey;
 }
