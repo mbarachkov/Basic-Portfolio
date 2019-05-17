@@ -17,17 +17,21 @@ body {
 
 }
 h1 {
-    background-color: rgb(27, 216, 191);
-    width: 20%;
+    background-color: rgb(74, 170, 166);
+    width: 25%;
     float: left;
     margin-left: 150px;
     text-align: center;
-    height: 20px;
+    line-height: 56px;
+    height: 70px;
+    margin-bottom:-19.920px;
     
 }
-#links {
+pre {
     float: right;
-    margin-right: 120px
+    margin-right: 120px;
+    padding: 11px;
+    line-height: 20px;
 }
 #background {
     position: relative;
