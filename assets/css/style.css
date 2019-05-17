@@ -10,6 +10,7 @@ body {
     border-right: solid;
     width: 950px;
     margin-bottom: -20px;
+    z-index: 2;
 }
 #content {
     margin: 0 auto;
@@ -44,6 +45,15 @@ pre {
     position: relative;
     top: -15px;
 }
+#inside {
+    margin : 0 auto;
+    width: 650px;
+    z-index: 1;
+}
+/* #center {
+    margin: 0 auto;
+    width: 650px;
+} */
 p {
     text-align: center;
     width: 930px;
@@ -52,4 +62,6 @@ p {
     color: white;
     margin-top: -4px;
     font-size: x-small;
+    border-top-color: rgb(74, 170, 166);
+    border-top: solid;
 }
